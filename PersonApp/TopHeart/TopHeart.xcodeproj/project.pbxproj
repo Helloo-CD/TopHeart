@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67EBEDDAE20EAE8DE25ECA80 /* libPods-TopHeart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F0B3696CC2728B1B83EADA /* libPods-TopHeart.a */; };
+		C01FA7BF1D823C760026149D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C01FA7BE1D823C760026149D /* main.m */; };
+		C01FA7C21D823C760026149D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C01FA7C11D823C760026149D /* AppDelegate.m */; };
+		C01FA7C51D823C760026149D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01FA7C41D823C760026149D /* ViewController.m */; };
+		C01FA7C81D823C760026149D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01FA7C61D823C760026149D /* Main.storyboard */; };
+		C01FA7CA1D823C760026149D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01FA7C91D823C760026149D /* Assets.xcassets */; };
+		C01FA7CD1D823C760026149D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01FA7CB1D823C760026149D /* LaunchScreen.storyboard */; };
+		C01FA7D81D823C770026149D /* TopHeartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C01FA7D71D823C770026149D /* TopHeartTests.m */; };
+		C01FA7E31D823C770026149D /* TopHeartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C01FA7E21D823C770026149D /* TopHeartUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C01FA7D41D823C770026149D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01FA7B21D823C760026149D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01FA7B91D823C760026149D;
+			remoteInfo = TopHeart;
+		};
+		C01FA7DF1D823C770026149D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C01FA7B21D823C760026149D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C01FA7B91D823C760026149D;
+			remoteInfo = TopHeart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CC9851EA37931039B4294A6 /* Pods-TopHeart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopHeart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopHeart/Pods-TopHeart.debug.xcconfig"; sourceTree = "<group>"; };
+		508264AC086CDD80A8BE2738 /* Pods-TopHeart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopHeart.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopHeart/Pods-TopHeart.release.xcconfig"; sourceTree = "<group>"; };
+		B4F0B3696CC2728B1B83EADA /* libPods-TopHeart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TopHeart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01FA7BA1D823C760026149D /* TopHeart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopHeart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01FA7BE1D823C760026149D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C01FA7C01D823C760026149D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C01FA7C11D823C760026149D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C01FA7C31D823C760026149D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C01FA7C41D823C760026149D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C01FA7C71D823C760026149D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C01FA7C91D823C760026149D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C01FA7CC1D823C760026149D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C01FA7CE1D823C760026149D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01FA7D31D823C770026149D /* TopHeartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopHeartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01FA7D71D823C770026149D /* TopHeartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopHeartTests.m; sourceTree = "<group>"; };
+		C01FA7D91D823C770026149D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01FA7DE1D823C770026149D /* TopHeartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopHeartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C01FA7E21D823C770026149D /* TopHeartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopHeartUITests.m; sourceTree = "<group>"; };
+		C01FA7E41D823C770026149D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C01FA7B71D823C760026149D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EBEDDAE20EAE8DE25ECA80 /* libPods-TopHeart.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01FA7D01D823C770026149D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01FA7DB1D823C770026149D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C6469CA2AEEEABDAAA5FEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4F0B3696CC2728B1B83EADA /* libPods-TopHeart.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		811F8F5602637AB366C9E3F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CC9851EA37931039B4294A6 /* Pods-TopHeart.debug.xcconfig */,
+				508264AC086CDD80A8BE2738 /* Pods-TopHeart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C01FA7B11D823C760026149D = {
+			isa = PBXGroup;
+			children = (
+				C01FA7BC1D823C760026149D /* TopHeart */,
+				C01FA7D61D823C770026149D /* TopHeartTests */,
+				C01FA7E11D823C770026149D /* TopHeartUITests */,
+				C01FA7BB1D823C760026149D /* Products */,
+				811F8F5602637AB366C9E3F7 /* Pods */,
+				26C6469CA2AEEEABDAAA5FEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C01FA7BB1D823C760026149D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01FA7BA1D823C760026149D /* TopHeart.app */,
+				C01FA7D31D823C770026149D /* TopHeartTests.xctest */,
+				C01FA7DE1D823C770026149D /* TopHeartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C01FA7BC1D823C760026149D /* TopHeart */ = {
+			isa = PBXGroup;
+			children = (
+				C01FA7C01D823C760026149D /* AppDelegate.h */,
+				C01FA7C11D823C760026149D /* AppDelegate.m */,
+				C01FA7C31D823C760026149D /* ViewController.h */,
+				C01FA7C41D823C760026149D /* ViewController.m */,
+				C01FA7C61D823C760026149D /* Main.storyboard */,
+				C01FA7C91D823C760026149D /* Assets.xcassets */,
+				C01FA7CB1D823C760026149D /* LaunchScreen.storyboard */,
+				C01FA7CE1D823C760026149D /* Info.plist */,
+				C01FA7BD1D823C760026149D /* Supporting Files */,
+			);
+			path = TopHeart;
+			sourceTree = "<group>";
+		};
+		C01FA7BD1D823C760026149D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C01FA7BE1D823C760026149D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C01FA7D61D823C770026149D /* TopHeartTests */ = {
+			isa = PBXGroup;
+			children = (
+				C01FA7D71D823C770026149D /* TopHeartTests.m */,
+				C01FA7D91D823C770026149D /* Info.plist */,
+			);
+			path = TopHeartTests;
+			sourceTree = "<group>";
+		};
+		C01FA7E11D823C770026149D /* TopHeartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C01FA7E21D823C770026149D /* TopHeartUITests.m */,
+				C01FA7E41D823C770026149D /* Info.plist */,
+			);
+			path = TopHeartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C01FA7B91D823C760026149D /* TopHeart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FA7E71D823C770026149D /* Build configuration list for PBXNativeTarget "TopHeart" */;
+			buildPhases = (
+				B286CC5C643C1C573CA04138 /* [CP] Check Pods Manifest.lock */,
+				C01FA7B61D823C760026149D /* Sources */,
+				C01FA7B71D823C760026149D /* Frameworks */,
+				C01FA7B81D823C760026149D /* Resources */,
+				1AE4257C8ADC3A69C7B5E77D /* [CP] Embed Pods Frameworks */,
+				44AF620065A265E52B7ECBCC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopHeart;
+			productName = TopHeart;
+			productReference = C01FA7BA1D823C760026149D /* TopHeart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C01FA7D21D823C770026149D /* TopHeartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FA7EA1D823C770026149D /* Build configuration list for PBXNativeTarget "TopHeartTests" */;
+			buildPhases = (
+				C01FA7CF1D823C770026149D /* Sources */,
+				C01FA7D01D823C770026149D /* Frameworks */,
+				C01FA7D11D823C770026149D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01FA7D51D823C770026149D /* PBXTargetDependency */,
+			);
+			name = TopHeartTests;
+			productName = TopHeartTests;
+			productReference = C01FA7D31D823C770026149D /* TopHeartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C01FA7DD1D823C770026149D /* TopHeartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FA7ED1D823C770026149D /* Build configuration list for PBXNativeTarget "TopHeartUITests" */;
+			buildPhases = (
+				C01FA7DA1D823C770026149D /* Sources */,
+				C01FA7DB1D823C770026149D /* Frameworks */,
+				C01FA7DC1D823C770026149D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C01FA7E01D823C770026149D /* PBXTargetDependency */,
+			);
+			name = TopHeartUITests;
+			productName = TopHeartUITests;
+			productReference = C01FA7DE1D823C770026149D /* TopHeartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01FA7B21D823C760026149D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HG.Killer;
+				TargetAttributes = {
+					C01FA7B91D823C760026149D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C01FA7D21D823C770026149D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C01FA7B91D823C760026149D;
+					};
+					C01FA7DD1D823C770026149D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C01FA7B91D823C760026149D;
+					};
+				};
+			};
+			buildConfigurationList = C01FA7B51D823C760026149D /* Build configuration list for PBXProject "TopHeart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01FA7B11D823C760026149D;
+			productRefGroup = C01FA7BB1D823C760026149D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01FA7B91D823C760026149D /* TopHeart */,
+				C01FA7D21D823C770026149D /* TopHeartTests */,
+				C01FA7DD1D823C770026149D /* TopHeartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01FA7B81D823C760026149D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01FA7CD1D823C760026149D /* LaunchScreen.storyboard in Resources */,
+				C01FA7CA1D823C760026149D /* Assets.xcassets in Resources */,
+				C01FA7C81D823C760026149D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01FA7D11D823C770026149D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01FA7DC1D823C770026149D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AE4257C8ADC3A69C7B5E77D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopHeart/Pods-TopHeart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44AF620065A265E52B7ECBCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopHeart/Pods-TopHeart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B286CC5C643C1C573CA04138 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01FA7B61D823C760026149D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01FA7C51D823C760026149D /* ViewController.m in Sources */,
+				C01FA7C21D823C760026149D /* AppDelegate.m in Sources */,
+				C01FA7BF1D823C760026149D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01FA7CF1D823C770026149D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01FA7D81D823C770026149D /* TopHeartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01FA7DA1D823C770026149D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01FA7E31D823C770026149D /* TopHeartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C01FA7D51D823C770026149D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01FA7B91D823C760026149D /* TopHeart */;
+			targetProxy = C01FA7D41D823C770026149D /* PBXContainerItemProxy */;
+		};
+		C01FA7E01D823C770026149D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C01FA7B91D823C760026149D /* TopHeart */;
+			targetProxy = C01FA7DF1D823C770026149D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C01FA7C61D823C760026149D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01FA7C71D823C760026149D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C01FA7CB1D823C760026149D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C01FA7CC1D823C760026149D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FA7E51D823C770026149D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FA7E61D823C770026149D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FA7E81D823C770026149D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC9851EA37931039B4294A6 /* Pods-TopHeart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TopHeart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.TopHeart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C01FA7E91D823C770026149D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 508264AC086CDD80A8BE2738 /* Pods-TopHeart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TopHeart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.TopHeart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C01FA7EB1D823C770026149D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TopHeartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.TopHeartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopHeart.app/TopHeart";
+			};
+			name = Debug;
+		};
+		C01FA7EC1D823C770026149D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TopHeartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.TopHeartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopHeart.app/TopHeart";
+			};
+			name = Release;
+		};
+		C01FA7EE1D823C770026149D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TopHeartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.TopHeartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TopHeart;
+			};
+			name = Debug;
+		};
+		C01FA7EF1D823C770026149D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TopHeartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HG.TopHeartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TopHeart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FA7B51D823C760026149D /* Build configuration list for PBXProject "TopHeart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FA7E51D823C770026149D /* Debug */,
+				C01FA7E61D823C770026149D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FA7E71D823C770026149D /* Build configuration list for PBXNativeTarget "TopHeart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FA7E81D823C770026149D /* Debug */,
+				C01FA7E91D823C770026149D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FA7EA1D823C770026149D /* Build configuration list for PBXNativeTarget "TopHeartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FA7EB1D823C770026149D /* Debug */,
+				C01FA7EC1D823C770026149D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FA7ED1D823C770026149D /* Build configuration list for PBXNativeTarget "TopHeartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FA7EE1D823C770026149D /* Debug */,
+				C01FA7EF1D823C770026149D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C01FA7B21D823C760026149D /* Project object */;
+}
